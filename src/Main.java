@@ -2,7 +2,11 @@ package src;
 public class Main {
     public static void main(String[] args) {
         HuffCompression compression = new HuffCompression();
-        compression.compress("C:\\Users\\vercer\\Desktop\\just.txt", "C:\\Users\\vercer\\Desktop\\Compressed.txt");
-        compression.decompress("C:\\Users\\vercer\\Desktop\\Compressed.txt" ,"C:\\Users\\vercer\\Desktop\\just.txt");
+        //compresstion method
+        compression.compress("Path of the file you want to compress", "Path of where the compressed file will be");
+
+        //decompressed method
+        //compression.decompress("Path of the file you want to decompress" ,"Path of where the decompressed file will be");
     }
 }
+
